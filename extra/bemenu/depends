@@ -1,0 +1,4 @@
+pkgconf make
+cairo
+pango
+libxkbcommon
