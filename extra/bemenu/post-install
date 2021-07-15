@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cat <<EOF
+
+put
+export LD_LIBRARY_PATH=.                       
+export BEMENU_RENDERERS=.                     
+
+in your /etc/profile for bemenu to work!!!
+
+EOF
+

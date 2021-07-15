@@ -1,0 +1,18 @@
+#!/bin/sh -e
+
+mkdir -p subprojects
+cd subprojects
+git clone https://codeberg.org/dnkl/tllist.git
+git clone https://codeberg.org/dnkl/fcft.git
+cd ..
+
+mkdir -p build/release && cd build/release
+
+meson \
+    --prefix=/usr \
+    --buildtype=release \
+    -Dbackend-x11=disabled \
+    ../.. output
+
+ninja -C output
+ninja -C output install

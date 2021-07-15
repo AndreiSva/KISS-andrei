@@ -1,0 +1,5 @@
+libyaml
+libmpdclient
+meson make
+samurai make
+scdoc make
