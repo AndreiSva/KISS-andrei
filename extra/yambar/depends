@@ -2,4 +2,6 @@ libyaml
 libmpdclient
 meson make
 samurai make
+json-c
 scdoc make
+pixman

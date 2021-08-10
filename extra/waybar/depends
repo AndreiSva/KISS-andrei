@@ -1,0 +1,11 @@
+cmake make
+chrono-date
+meson make
+gtkmm3
+jsoncpp
+libsigc++
+fmt
+wayland
+wayland-protocols make
+scdoc make
+spdlog

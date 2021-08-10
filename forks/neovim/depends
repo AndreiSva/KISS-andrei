@@ -1,0 +1,5 @@
+automake make
+cmake    make
+libtool  make
+pkgconf  make
+gnu-m4 make
